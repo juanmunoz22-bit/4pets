@@ -7,6 +7,10 @@
 #### Juan Pablo Muñoz
 #### Moisés Salcedo Ramos
 
+Link de grabación: 
+
+https://drive.google.com/file/d/1Qa8GyLPRk3NwKh-b_dTuJKkkNkVfL4H_/view?usp=sharing
+
 Durante el desarrollo del taller elegimos las siguientes herramientas en python:
 
 1. Flask como microoservidor
