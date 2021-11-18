@@ -3,8 +3,9 @@
 ## 4pets
 
 ### Integrantes
-Juan Pablo Muñoz
-Moisés Salcedo Ramos
+
+#### Juan Pablo Muñoz
+#### Moisés Salcedo Ramos
 
 Durante el desarrollo del taller elegimos las siguientes herramientas en python:
 
