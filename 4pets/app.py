@@ -40,6 +40,12 @@ def register_post():
 
     return redirect(url_for('login'))
 
+@app.route('/accounts/profile/pet', methods=['GET'])
+def register_pet():
+    return render_template('accounts/pets.html')
+
+
+
 
 @app.route('/accounts/login', methods=['GET'])
 def login():
@@ -89,9 +95,9 @@ def profile_post():
 
 @app.route('/accounts/logout')
 def logout():
-    session.pop("usr", None)
+    session.pop("user_id", None)
     flash("You have successfully been logged out.", "info")
-    return redirect(url_for("login_get"))
+    return redirect(url_for("login"))
 
 
 if __name__ == '__main__':

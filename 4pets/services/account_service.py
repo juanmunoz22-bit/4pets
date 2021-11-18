@@ -1,5 +1,5 @@
 from data.db_conn import db_auth
-from services.models import User
+from services.models import User, Pet
 
 graph = db_auth()
 
@@ -19,6 +19,15 @@ def create_user(first_name, last_name, email, password):
     user.password = password
     graph.create(user)
     return user
+
+def create_pet(name, species, owner):
+    pet = Pet()
+    pet.name = name
+    pet.species = species
+    pet.owner = owner
+    graph.create(pet)
+    return pet
+
 
 #Create a function for user login.
 def login_user(email, password):
